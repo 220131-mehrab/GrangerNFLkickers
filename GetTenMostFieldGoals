@@ -1,0 +1,1 @@
+tail -n 1994 Career_Stats_Field_Goal_Kickers.csv | cut -d , -f 2,3,5,6,10 | sort -t , -k 5 -g -r | head
