@@ -1,0 +1,9 @@
+#! bash
+
+FILE=~/RevatureCodingPractice/NFLkickers/Career_Stats_Field_Goal_Kickers.csv
+
+countTimes() {
+	cat $FILE | cut -d , -f 10 | grep "$1" -w | uniq -c
+}
+
+"$@"
