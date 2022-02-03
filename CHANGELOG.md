@@ -1,4 +1,7 @@
 Granger Carty 2022-02-03
+Added Changelog
+
+Granger Carty 2022-02-03
 Cleaned up files in project and renamed project
 
 Granger Carty 2022-02-03
