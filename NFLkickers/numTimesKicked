@@ -13,6 +13,10 @@ countTimes() {
 	cat $FILE | cut -d , -f 10 | grep "$1" -w | uniq -c
 }
 
+mostRecentYear() {
+	cat $FILE | cut -d , -f 5,10 | grep "$1$" | cut -d , -f 1 | sort -g -r | head -n 1
+}
+
 if [[ $# -eq 0 ]] ; then
 	usage
 	exit 1
