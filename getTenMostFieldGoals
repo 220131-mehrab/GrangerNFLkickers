@@ -1,4 +1,4 @@
 #!bash
 
-FILE=~/RevatureCodingPractice/NFLkickers/Career_Stats_Field_Goal_Kickers.csv
+FILE=./Career_Stats_Field_Goal_Kickers.csv
 tail -n 1994 $FILE | cut -d , -f 2,3,5,6,10 | sort -t , -k 5 -g -r | head

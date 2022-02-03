@@ -1,6 +1,6 @@
 #! bash
 
-FILE=~/RevatureCodingPractice/NFLkickers/Career_Stats_Field_Goal_Kickers.csv
+FILE=./Career_Stats_Field_Goal_Kickers.csv
 
 usage() {
 	echo "Usage: "$0" <command> [<args>]"
