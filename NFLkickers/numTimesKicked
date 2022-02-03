@@ -2,8 +2,20 @@
 
 FILE=~/RevatureCodingPractice/NFLkickers/Career_Stats_Field_Goal_Kickers.csv
 
+usage() {
+	echo "Usage: "$0" <command> [<args>]"
+	echo
+	echo "countTimes <fieldGoalsKicked>"
+	echo "Print number of times player has kicked exactly <fieldGoalsKicked> in a season"
+}
+
 countTimes() {
 	cat $FILE | cut -d , -f 10 | grep "$1" -w | uniq -c
 }
+
+if [[ $# -eq 0 ]] ; then
+	usage
+	exit 1
+fi
 
 "$@"
