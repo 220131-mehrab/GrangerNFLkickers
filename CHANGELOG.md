@@ -1,3 +1,9 @@
+Granger Carty 2022-02-04
+added comments and improved usage function
+
+Granger Carty 2022-02-03
+Added .gitignore
+
 Granger Carty 2022-02-03
 Added Changelog
 
