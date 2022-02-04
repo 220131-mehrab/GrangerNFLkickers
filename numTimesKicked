@@ -3,11 +3,9 @@
 FILE=./Career_Stats_Field_Goal_Kickers.csv
 
 usage() {
-	echo "Usage: "$0" <command> [<args>]"
-	echo
+	echo -e "Usage: "$0" <command> [<args>]\n"
 	echo "countTimes <fieldGoalsKicked>"
-	echo "Print number of times player has kicked exactly <fieldGoalsKicked> in a season"
-	echo
+	echo -e "Print number of times player has kicked exactly <fieldGoalsKicked> in a season\n"
 	echo "mostRecentYear <fieldGoalsKicked>"
 	echo "Print most recent year a player kicked exactly  <fieldGoalsKicked> in a season"
 
