@@ -3,10 +3,15 @@
 FILE1=./GMFGmostMakes.expected
 FILE2=./GMFGmostAttempts.expected
 
+FILE3=./NTKcountTimes.expected
+FILE4=./NTKmostRecentYear.expected
+
 usage() {
 	echo -e "Usage: ./kickerAppTester <command>\n"
 	echo "testGMFG"
 	echo -e "Tests the getMostFieldGoals program\n"
+	echo "testNTK"
+	echo "Tests the numTimesKicked program"
 }
 
 testGMFG() {
@@ -20,6 +25,19 @@ testGMFG() {
 
 	rm GMFGmostAttempts.actual
 	rm GMFGmostMakes.actual
+}
+
+testNTK() {
+	echo "testing 1/2"
+	./numTimesKicked countTimes 30 > NTKcountTimes.actual
+	cmp $FILE3 NTKcountTimes.actual || echo "countTimes test failed" 
+
+	echo "testing 2/2"
+	./numTimesKicked mostRecentYear 30 > NTKmostRecentYear.actual
+	cmp $FILE4 NTKmostRecentYear.actual || echo "mostRecentYear test failed"
+
+	rm NTKcountTimes.actual
+	rm NTKmostRecentYear.actual
 }
 
 if [[ $# -eq 0 ]] ; then
