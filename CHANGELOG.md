@@ -1,3 +1,18 @@
+Granger Carty 2022-02-08
+Adding Java
+
+Granger Carty 2022-02-07
+Finished initial version of kickerAppTester
+
+Granger Carty 2022-02-04
+Began adding testing capabilities
+
+Granger Carty 2022-02-04
+Renamed and added options to getMostFieldGoals
+
+Granger Carty 2022-02-04
+Updated CHANGELOG and README
+
 Granger Carty 2022-02-04
 added comments and improved usage function
 
