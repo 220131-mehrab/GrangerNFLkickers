@@ -1,3 +1,9 @@
+Granger Carty 2022-02-09
+starting from scratch with gradle
+
+Granger Carty 2022-02-09
+Updated CHANGELOG and added to java KickerApp
+
 Granger Carty 2022-02-08
 Adding Java
 
