@@ -1,6 +1,6 @@
 package com.github.grangercarty.kicker;
 
-public class KickerApp {
+public class App {
 
 	public static void main(String[] args) {
 		System.out.println("Words");

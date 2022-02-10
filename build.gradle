@@ -1,4 +1,4 @@
 apply plugin: 'application'
 
-mainClassName = 'com.github.grangercarty.kicker.KickerApp'
+mainClassName = 'com.github.grangercarty.kicker.App'
 
